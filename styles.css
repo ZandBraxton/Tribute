@@ -10,6 +10,8 @@ body {
     max-width: fit-content;
     width: 50%;
     max-width: 50%;
+    
+    
 }
 
 .imgbg {
@@ -17,6 +19,8 @@ body {
     margin-left: -100px;
     margin-right: -100px;
     margin-top: -10px;
+    grid-column: 1 / 4; 
+    
 }
 
 .imgcap {
@@ -32,8 +36,27 @@ body {
     font-weight: bold;
     opacity: 0.90;
 }
-
-.tributeinfo {
-    text-align: center;
+ 
+.tribute-bg {
     background-color: white;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    
 }
+
+.tribute-text {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+ /* .container {
+   display:grid;
+   grid-template-columns:
+    minmax(1.2rem, 1fr)
+    minmax(auto, 57ch)
+    minmax(1.2rem, 1fr);
+    
+}   */
